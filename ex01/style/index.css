@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+ }
+
+ h1 {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:xx-large;
+
+ }
+
+ .outer-grid {
+    margin-left: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    align-items: center;
+    column-gap: 10px;
+ }
+
+ .inner-grid {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+ }
+
+ .inner-grid img {
+    margin-top: 8px;
+    width: 100%;
+    padding: 10px;
+    display: block;
+ }
+
+ .desc {
+     text-align: justify;
+     display: block;
+     padding: 15px;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-size: smaller;
+ }
+
+ p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+ }
